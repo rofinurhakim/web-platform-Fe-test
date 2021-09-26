@@ -1,0 +1,50 @@
+.btn.btn-outline-danger {
+  color: #e63575;
+  border: none;
+}
+
+.btn.btn-outline-danger:hover {
+  background-color: #e63575;
+  color: #ffffff;
+}
+
+.btn.btn-danger {
+  background-color: #a02bb4;
+  border: none;
+  font-size: 14px;
+}
+
+.input-group-text {
+  background: none;
+  border: none;
+  color: #5b5b5b;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+}
+
+.navbar.navbar-dark.bg-dark {
+  background-color: transparent !important;
+}
+.navbar ul li a.active {
+  background: #ffffff2e;
+}
+
+.text-left {
+  text-align: left !important;
+}
+.text-purple {
+  color: #a02bb4;
+}
+
+.round-1 {
+  border-radius: 4px;
+}
+.round-2 {
+  border-radius: 8px;
+}
+.round-3 {
+  border-radius: 22px;
+}

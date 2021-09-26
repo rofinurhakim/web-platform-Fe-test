@@ -1,0 +1,159 @@
+body {
+}
+
+.bg-page {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  height: 100vh;
+  background: #00000073;
+}
+
+/* LOGIN PAGE STYLE SECTION  */
+.login-page {
+  background-image: url('https://media.idownloadblog.com/wp-content/uploads/2019/05/Glacier_Falls_-_MacBook_Pro_Wallpaper.jpg');
+}
+
+.login-page #cardLoginSection .card-login {
+  position: relative;
+}
+
+.login-page #cardLoginSection .card-login .card-login-one {
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 68, 127, 1) 0%,
+    rgba(236, 68, 127, 1) 53%,
+    rgba(220, 34, 104, 1) 100%
+  );
+  position: absolute;
+  width: 80%;
+  top: -10%;
+  left: 10.39%;
+  border-radius: 4px;
+}
+
+.login-page #cardLoginSection .card-login .card-login-one .socmed-login {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.login-page #cardLoginSection .card-login .card-login-one .socmed-login li {
+  margin: 4px 13px;
+  position: relative;
+  transition: all ease 0.25s;
+}
+
+.login-page #cardLoginSection .card-login .card-login-one .socmed-login li a {
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.login-page
+  #cardLoginSection
+  .card-login
+  .card-login-one
+  .socmed-login
+  li:nth-child(1)
+  a {
+  background-color: white;
+  color: #df2a6b;
+  height: 25px;
+  width: 25px;
+}
+
+.login-page
+  #cardLoginSection
+  .card-login
+  .card-login-one
+  .socmed-login
+  li
+  a:hover {
+  opacity: 0.8;
+}
+
+.login-page #cardLoginSection .card-login .card-login-two {
+  padding-top: 7rem;
+  border-radius: 4px;
+}
+
+/* REGISTER PAGE STYLE SECTION  */
+.register-page {
+  background-image: url('https://www.kibrispdr.org/data/snow-mountain-wallpaper-0.jpg');
+}
+
+.register-page
+  #cardRegisterSection
+  .card-register
+  .right-section
+  .socmed-register {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.register-page
+  #cardRegisterSection
+  .card-register
+  .right-section
+  .socmed-register
+  li {
+  margin: 4px 6px;
+  position: relative;
+  transition: all ease 0.25s;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.register-page
+  #cardRegisterSection
+  .card-register
+  .right-section
+  .socmed-register
+  li
+  a {
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.register-page
+  #cardRegisterSection
+  .card-register
+  .right-section
+  .socmed-register
+  li:nth-child(1) {
+  background-color: #5ab0ef;
+}
+.register-page
+  #cardRegisterSection
+  .card-register
+  .right-section
+  .socmed-register
+  li:nth-child(2) {
+  background-color: #eb528f;
+}
+.register-page
+  #cardRegisterSection
+  .card-register
+  .right-section
+  .socmed-register
+  li:nth-child(3) {
+  background-color: #405f9d;
+}

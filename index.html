@@ -1,0 +1,196 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js" defer></script>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="util.css" />
+  </head>
+  <body>
+    <div class="login-page bg-page">
+      <div class="overlay">
+        <div class="container h-100">
+          <!-- NAVBAR SECTION START -->
+          <div id="navbarSection" class="pt-3">
+            <nav
+              class="navbar navbar-expand-lg navbar-dark bg-dark transparent"
+            >
+              <div class="container-fluid">
+                <a class="navbar-brand" href="">ROFI NURHAKIM - FE TEST</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">
+                        <i class="fa fa-th-large me-2"></i>DASHBOARD</a
+                      >
+                    </li>
+                    <li class="nav-item mx-md-5">
+                      <a class="nav-link" href="/register.html">
+                        <i class="fa fa-user-plus me-2"></i>REGISTER</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active px-3" href="#"
+                        ><i class="fa fa-sign-in me-2"></i>LOGIN</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <!-- NAVBAR SECTION END -->
+
+          <!-- CARD SECTION START -->
+          <div id="cardLoginSection" class="d-flex w-100 h-75">
+            <div class="w-100 align-self-center">
+              <div class="row">
+                <div class="col-md-5 col-lg-4 mx-auto">
+                  <div class="card-login px-md-4">
+                    <!-- CARD LOGIN ONE SECTION START -->
+                    <div
+                      class="
+                        card-login-one
+                        shadow-lg
+                        text-center
+                        px-3
+                        pt-3
+                        pb-4
+                      "
+                    >
+                      <h5>Login</h5>
+
+                      <ul class="socmed-login mt-2">
+                        <li>
+                          <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- CARD LOGIN ONE SECTION END -->
+
+                    <!-- CARD LOGIN TWO SECTION START -->
+                    <div class="card-login-two text-center px-3 pb-3 bg-white">
+                      <h6 class="mb-4">Or Be Classical</h6>
+                      <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-12">
+                          <div class="input-group has-validation">
+                            <span
+                              class="input-group-text fs-5"
+                              id="inputGroupPrepend"
+                              ><i class="fa fa-user"></i
+                            ></span>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="firstNameForm"
+                              aria-describedby="inputGroupPrepend"
+                              placeholder="First Name"
+                              required
+                            />
+                            <div class="invalid-feedback">
+                              Please fill a username.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="input-group has-validation">
+                            <span
+                              class="input-group-text"
+                              id="inputGroupPrepend"
+                              ><i class="fa fa-envelope"></i
+                            ></span>
+                            <input
+                              type="email"
+                              class="form-control"
+                              id="emailAddressForm"
+                              aria-describedby="inputGroupPrepend"
+                              placeholder="Email address"
+                              required
+                            />
+                            <div class="invalid-feedback">
+                              Please fill a email with correct format.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="input-group has-validation">
+                            <span
+                              class="input-group-text fs-4"
+                              id="inputGroupPrepend"
+                              ><i class="fa fa-lock"></i
+                            ></span>
+                            <input
+                              oninput="return formvalid()"
+                              type="password"
+                              class="form-control"
+                              id="PasswordForm"
+                              aria-describedby="inputGroupPrepend"
+                              placeholder="Password"
+                              required
+                            />
+                            <div class="invalid-feedback">
+                              Please fill a password.
+                            </div>
+                          </div>
+                          <div id="vaild-pass" class="text-danger"></div>
+                        </div>
+                        <div class="col-12 mt-4">
+                          <button
+                            id="btnSubmit"
+                            type="submit"
+                            class="btn btn-outline-danger"
+                          >
+                            LET'S GO
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- CARD LOGIN TWO SECTION END -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CARD SECTION END -->
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
